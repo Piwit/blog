@@ -1,4 +1,4 @@
 ---
-title: jQuery bookmarks
+title: JQuery bookmarks
 description: Links about jQuery
 ---
