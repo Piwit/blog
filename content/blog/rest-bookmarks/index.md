@@ -10,4 +10,5 @@ description: Links about REST API design
 
 ## Authentification
 [FR - Diverses méthodes d'authentification](https://blog.ineat-conseil.fr/2013/01/restful-authentication/)
+
 [Authentication vs Authorization](https://blog.restcase.com/restful-api-authentication-basics/)
