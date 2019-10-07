@@ -1,6 +1,7 @@
 ---
 title: REST bookmarks
 description: Links about REST API design
+date: 2019-10-03
 ---
 ## Design
 [RESTful API Design](https://hackernoon.com/restful-api-design-step-by-step-guide-2f2c9f9fcdbf)
