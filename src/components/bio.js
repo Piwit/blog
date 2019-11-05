@@ -52,6 +52,7 @@ const Bio = () => {
       />
       <p>
         Written by <strong>{author}</strong> who lives and works in Lumiu <strike>building useful things</strike> trying to survive.
+        Feel free to contact me at <a href="mailto:pro@lucas.corsica">pro@lucas.corsica</a>
       </p>
     </div>
   )
