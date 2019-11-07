@@ -13,3 +13,7 @@ date: 2019-10-03
 [FR - Diverses méthodes d'authentification](https://blog.ineat-conseil.fr/2013/01/restful-authentication/)
 
 [Authentication vs Authorization](https://blog.restcase.com/restful-api-authentication-basics/)
+
+[CSRF on REST API](https://mathieu.fenniak.net/is-your-web-api-susceptible-to-a-csrf-exploit/)
+
+[FR - CSRF on REST API](https://guide-api-rest.wishtack.io/securite-des-apis-rest/c.s.r.f.)
