@@ -14,6 +14,8 @@ date: 2019-10-06
 
 [Cookie GDPR](https://gdpr.eu/cookies/)
 
+[Google analytics GDPR](https://www.blastam.com/blog/5-actionable-steps-gdpr-compliance-google-analytics)
+
 ## Mail
 [GSuite problem with own mail server](https://support.google.com/mail/thread/10675900?hl=en)
 
