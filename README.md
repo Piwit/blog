@@ -1,5 +1,7 @@
 # Blog
-A classic blog mostly populated with links towards good articles
+My own personal blog, based on the gatsby blog template
+
+Articles are written in Markdown in the content folder
 
 [Click here to check it](https://blog.lucas.corsica/)
 
