@@ -50,10 +50,18 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
-        Written by <strong>{author}</strong> who lives and works in Corsica <strike>building useful things</strike> trying to survive.
-        Feel free to contact me at <a href="mailto:pro@lucas.corsica">pro@lucas.corsica</a>
-      </p>
+      <div>
+        <p style={{marginBottom: 0}}>
+          Written by <strong>{author}</strong>, a freelance software engineer in Corsica trying to survive.
+          Feel free to contact me at <a href="mailto:pro@lucas.corsica">pro@lucas.corsica</a>
+        </p>
+        <a href="https://github.com/Piwit" style={{
+            boxShadow: "unset",
+            color: "inherit"
+          }}>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
     </div>
   )
 }
