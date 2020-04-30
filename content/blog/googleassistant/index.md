@@ -1,7 +1,7 @@
 ---
 title: Creating action for Google Assistant
 description: Post mortem in building action for Google Assistant
-date: 2020-21-04
+date: 2020-04-30
 ---
 
 Some months ago I bought a Google Home Mini, you know the always-on-discount thing. I wanted to use it as a secretary, notifying me when I receive an email, taking my appointment, reminding me stuff. Unfortunately, [none of these features work if you have a Gsuite account and live in France](https://support.google.com/googlenest/answer/7571892?co=GENIE.Platform%3DDesktop&hl=en). As of now I mostly use it as an alarm clock, the sound is good and it's easy to put an alarm.
