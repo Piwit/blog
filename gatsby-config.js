@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `lucas.corsica`,
     author: `Lucas Marie`,
-    description: `Software engineer tech blog`,
+    description: `Tech blog from a software engineer in Corsica.`,
     siteUrl: `https://blog.lucas.corsica/`,
     social: {
     },
@@ -50,13 +50,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `lucas.corsica software tech blog`,
+        short_name: `lucas.corsica`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#73e3f3`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon.png`,
       },
     },
     `gatsby-plugin-offline`,
