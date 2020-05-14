@@ -1,13 +1,13 @@
 ---
 title: Creating action for Google Assistant
-description: Post mortem in building action for Google Assistant
+description: Review after building action for Google Assistant
 date: 2020-04-30
 ---
 
 Some months ago I bought a Google Home Mini, you know the always-on-discount thing. I wanted to use it as a secretary, notifying me when I receive an email, taking my appointment, reminding me stuff. Unfortunately, [none of these features work if you have a Gsuite account and live in France](https://support.google.com/googlenest/answer/7571892?co=GENIE.Platform%3DDesktop&hl=en). As of now I mostly use it as an alarm clock, the sound is good and it's easy to put an alarm.
-However, I also bought it to create some custom actions and control the most I could with my voice. After 3 months I finally decided to give it a go and built my first action. Here's my review. This is not a tutorial, the [Google documentation](https://developers.google.com/assistant/conversational/overview) is really good if you want to get started building action for your assistant.
+However, I also bought it to create some custom actions and control the most I could with my voice. After 3 months I finally decided to give it a go and built my first action. Here's my review. Disclaimer, this is not a tutorial, the [Google documentation](https://developers.google.com/assistant/conversational/overview) is really good if you want to get started building action for your assistant.
 
-# Context
+# Context & presentation
 
 Multiple components are working together when you say "Ok Google, put an alarm clock at 8:24 AM".
 The first one will trigger to a certain sound like "Ok Google".
@@ -26,7 +26,7 @@ You can host your webhook, wherever you want, I put mine on a Google Cloud Funct
 
 Once you set up your server you can use two different libraries to fulfill your actions, [dialogflow](https://github.com/googleapis/nodejs-dialogflow#readme) or [actions-on-google](https://github.com/actions-on-google/actions-on-google-nodejs#readme). Using Dialogflow's library your bot could be integrated on every platform supported by Dialogflow, [here's the list](https://cloud.google.com/dialogflow/docs/integrations?hl=en). Using the actions-on-google library your bot will only work on the Google Assistant. But you can leverage every capability of it, storing data during a conversation, getting  user's data like the location, linking with a Google account or one from your organization. I used the latter because some functionalities were only available on the Assistant. Both are easy to use, you can find more recent examples with the actions-on-google library.
 
-# My opinion
+# Feedback
 
 It is easy to create a simple action! The tutorial is well made and you are guided with many examples. There is a lot of advice and tips on how to build a good action, manage a conversation. Those can be used to build a great chatbot, and even to improve your real-life social skills.
 
@@ -51,4 +51,6 @@ It is really disappointing, all the hard parts are working well, but it seems th
 
 # What I built
 
-I built a [Toggl](https://toggl.com/) bot to start and stop a timer with your voice. It took me approximately 3 days, to discover the platform and get a first version of this bot. It is going through the publication process, I will update this article when it will be out (or rejected ^^), you can check the [repository here](https://github.com/Piwit/togglgo).       
+I built a [Toggl](https://toggl.com/) bot to start and stop a timer with your voice. It took me approximately 3 days, to discover the platform and get a first version of this bot. It is going through the publication process, I will update this article when it will be out (or rejected ^^), you can check the [repository here](https://github.com/Piwit/togglgo).
+
+__[14/05/2020] Update:__ My action has been rejected! This is mainly due to the poor user exeprience requiring an API Key to do anything. That's why I wanted to build a private action in the first place. However I discovered Toggl's browser extension which allow to launch a timer with a single click. It's even better than controlling it with your voice.      
