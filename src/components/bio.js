@@ -10,6 +10,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
+import { FaGithub } from "react-icons/fa"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -59,7 +60,7 @@ const Bio = () => {
             boxShadow: "unset",
             color: "inherit"
           }}>
-          <i class="fab fa-github"></i>
+          <FaGithub />
         </a>
       </div>
     </div>
